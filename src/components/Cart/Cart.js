@@ -2,7 +2,7 @@ import React from "react";
 import './Cart.css';
 
 
-const Cart = ({ cart, emptyCart }) => {
+const Cart = ({ cart, emptyCart, randomPick }) => {
     console.log(cart);
 
     const ballName = [];
@@ -16,7 +16,7 @@ const Cart = ({ cart, emptyCart }) => {
             <p>Item Name: {ballName}</p>
 
             <div className="btn-group">
-                <button>
+                <button onClick={randomPick}>
                     <p className="btn-1">CHOOSE 1  FOR ME</p>
                 </button>
                 <button onClick={emptyCart}>

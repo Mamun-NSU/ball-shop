@@ -3,7 +3,7 @@ import './Answers.css';
 
 const Answers = () => {
     return (
-        <div>
+        <div className="answers">
             <hr></hr>
             <div className="answer">
                 <h2>What are difference between props vs state in reactjs?</h2>

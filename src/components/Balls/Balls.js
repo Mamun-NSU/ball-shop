@@ -21,6 +21,16 @@ const Balls = () => {
     const emptyCart = () => {
         setCart([]);
     };
+
+    const randomGenerator = (a, b) => {
+        return Math.random() * (b - a) + a;
+    }
+    const randomPick = () => {
+        const thePick = cart[Math.floor(randomGenerator(1, cart.length)) - 1];
+        const myElement = [];
+        myElement.push(thePick);
+        setCart(myElement);
+    }
     return (
         <div className="full-container">
             <div className="balls-container">
@@ -36,6 +46,7 @@ const Balls = () => {
                 <Cart
                     cart={cart}
                     emptyCart={emptyCart}
+                    randomPick={randomPick}
                 ></Cart>
             </div>
         </div>
