@@ -5,11 +5,18 @@ import './Balls.css';
 const Balls = () => {
     const [balls, setBalls] = useState([]);
 
+    const [cart, setCart] = useState([]);
+
     useEffect(() => {
         fetch('balldata.json')
             .then(res => res.json())
             .then(data => setBalls(data))
-    }, [])
+    }, []);
+    const addToCart = (ball) => {
+        // console.log(ball)
+        const newCart = [...cart, ball];
+        setCart(newCart);
+    };
     return (
         <div className="full-container">
             <div className="balls-container">
@@ -17,11 +24,13 @@ const Balls = () => {
                     balls.map(ball => <Ball
                         key={ball.id}
                         ball={ball}
+                        addToCart={addToCart}
                     ></Ball>)
                 }
             </div>
             <div className="cart-container">
-                <h2>This is cart </h2>
+                <h2> Order Summary </h2>
+                <p>Selected Balls: {cart.length}</p>
             </div>
         </div>
     );
