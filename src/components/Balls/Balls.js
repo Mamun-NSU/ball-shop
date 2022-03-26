@@ -14,9 +14,12 @@ const Balls = () => {
             .then(data => setBalls(data))
     }, []);
     const addToCart = (ball) => {
-        // console.log(ball)
+
         const newCart = [...cart, ball];
         setCart(newCart);
+    };
+    const emptyCart = () => {
+        setCart([]);
     };
     return (
         <div className="full-container">
@@ -30,7 +33,10 @@ const Balls = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart
+                    cart={cart}
+                    emptyCart={emptyCart}
+                ></Cart>
             </div>
         </div>
     );
