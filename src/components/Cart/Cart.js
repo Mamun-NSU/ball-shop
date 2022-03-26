@@ -13,7 +13,7 @@ const Cart = ({ cart, emptyCart, randomPick }) => {
         <div className="cart">
             <h2> Order Summary </h2>
             <p>Selected Balls: {cart.length}</p>
-            <p>Item Name: {ballName}</p>
+            <p>Items Name: {ballName}</p>
 
             <div className="btn-group">
                 <button onClick={randomPick}>

@@ -33,7 +33,7 @@
         "id": "6",
         "name": "Water Polo Ball",
         "price": 650,
-        "image": "http://getdrawings.com/image/water-polo-ball-drawing-59.jpg"
+        "image": "https://maudesport.com/media/catalog/product/2/3/233725-1.jpg"
     },
     {
         "id": "7",
@@ -52,5 +52,23 @@
         "name": "Volley ball",
         "price": 780,
         "image": "http://energiefitnessshop.com/wp-content/uploads/2018/04/Volleyball.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Golf Ball",
+        "price": 650,
+        "image": "https://www.giftsforyounow.com/images/products/NP0168-S3-1-L.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Table Tennis Ball",
+        "price": 50,
+        "image": "https://shop.r10s.jp/vitaliser/cabinet/1512-2/nittaku-1237_1.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Hurling ball",
+        "price": 320,
+        "image": "https://www.aamirind.com/wp-content/uploads/2017/04/20-768x768.jpg"
     }
 ]
