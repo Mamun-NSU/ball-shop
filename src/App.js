@@ -4,7 +4,8 @@ import Balls from './components/Balls/Balls';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      {/* className="App" */}
       <Balls></Balls>
     </div>
   );

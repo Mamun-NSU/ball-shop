@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Ball from "../Ball/Ball";
 import './Balls.css';
 
 const Balls = () => {
@@ -12,7 +13,12 @@ const Balls = () => {
     return (
         <div className="full-container">
             <div className="balls-container">
-                <h2>This is Balls: {balls.length} </h2>
+                {
+                    balls.map(ball => <Ball
+                        key={ball.id}
+                        ball={ball}
+                    ></Ball>)
+                }
             </div>
             <div className="cart-container">
                 <h2>This is cart </h2>
