@@ -1,9 +1,37 @@
 .ball{
     width: 300px;
-    height: 500px;
+    height: 450px;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 10px;
+    position: relative;
 }
 
 .ball img{
     width: 280px;
     height: 280px;
+    /* margin: 20px auto; */
+    padding: 9px;
+}
+
+.ball p {
+    margin-left: 15px;
+}
+
+.ball-name{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.btn-cart{
+    height: 30px;
+    width: 100%;
+    background: rgb(238, 190, 69);
+    border-radius:0px 0px 10px 10px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-cart:hover {
+    background-color: yellowgreen;
 }

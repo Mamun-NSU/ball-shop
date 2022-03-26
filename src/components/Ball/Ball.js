@@ -7,6 +7,11 @@ const Ball = (props) => {
     return (
         <div className="ball">
             <img src={image} alt="" ></img>
+            <p className="ball-name">{name}</p>
+            <p className="ball-price">{price}</p>
+            <button className="btn-cart">
+                Add to Cart
+            </button>
         </div>
     );
 };
