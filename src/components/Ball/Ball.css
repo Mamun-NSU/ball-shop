@@ -23,15 +23,22 @@
 }
 
 .btn-cart{
-    height: 30px;
+    height: 35px;
     width: 100%;
     background: rgb(238, 190, 69);
     border-radius:0px 0px 10px 10px;
     border: none;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-cart:hover {
     background-color: yellowgreen;
+}
+
+.btn-text{
+    margin-right: 5px;
 }

@@ -1,0 +1,16 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+
+.btn-group button{
+    margin-top: 10px;
+}
+
+.btn-1{
+    color: green;
+}
+
+.btn-2{
+    color: rgb(236, 113, 113);
+}

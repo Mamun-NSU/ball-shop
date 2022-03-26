@@ -31,8 +31,26 @@
     },
     {
         "id": "6",
+        "name": "Water Polo Ball",
+        "price": 650,
+        "image": "http://getdrawings.com/image/water-polo-ball-drawing-59.jpg"
+    },
+    {
+        "id": "7",
         "name": "Rugby Ball",
         "price": 720,
-        "image": "https://thebrandingstudio.com.au/wp-content/uploads/2020/09/117254-2.jpg"
+        "image": "https://res.cloudinary.com/moresport/image/upload/c_fill,q_auto:good/v1575961299/uploads/assets/1142206-0-ENi.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Horse Polo Ball",
+        "price": 920,
+        "image": "https://www.spiritofpolo.com/wp-content/uploads/2019/04/Pelota-de-Pato_1.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Volley ball",
+        "price": 780,
+        "image": "http://energiefitnessshop.com/wp-content/uploads/2018/04/Volleyball.jpg"
     }
 ]
