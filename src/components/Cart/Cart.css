@@ -1,6 +1,7 @@
 .cart{
-    height: 500px;
+    height: 430px;
     padding: 20px;
+    margin-right: 20px;
     background-color: bisque;
     position: sticky;
     top: 0;

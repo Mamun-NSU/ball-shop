@@ -7,7 +7,7 @@ const Cart = ({ cart, emptyCart, randomPick }) => {
 
     const ballName = [];
     for (const ball of cart) {
-        ballName.push(ball.name);
+        ballName.push(ball.name + ' ');
     }
     return (
         <div className="cart">
